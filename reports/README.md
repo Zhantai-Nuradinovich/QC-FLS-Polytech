@@ -4,8 +4,8 @@
 ---
 Индивидуальные планы работы
 ---
-* Нурадинов Ж.Н.
-* Кузина В.М.
+* [Нурадинов Жантай](https://github.com/Zhantai-Nuradinovich/QC-FLS-Polytech/blob/master/reports/Nuradinov)
+* [Кузина Валерия](https://github.com/Zhantai-Nuradinovich/QC-FLS-Polytech/blob/master/reports/Kuzina)
 
 Отчет
 ---
