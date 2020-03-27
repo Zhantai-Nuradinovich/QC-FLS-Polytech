@@ -1,4 +1,5 @@
 # Навигация по файлам
-| Название файла| Комментарий  | 
+| Название файла| Комментарий  |  
 |:------------- |:------------:|
-| Какой-то файл     | Комментарий к какому-то файлу |
+| [QuantumComputing](https://github.com/Zhantai-Nuradinovich/QC-FLS-Polytech/blob/master/docs/QuantumComputing.pptx)| Математические основы квантовых компьютеров, Нурадинов |
+|[Fizicheskie_osnovy_kvantovogo_kompyutera](https://github.com/Zhantai-Nuradinovich/QC-FLS-Polytech/blob/master/docs/Fizicheskie_osnovy_kvantovogo_kompyutera.pptx)| Физические основы квантовых компьютеров, Кузина|
