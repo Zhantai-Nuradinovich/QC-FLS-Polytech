@@ -1,0 +1,401 @@
+@charset "UTF-8";
+/*!
+Theme Name: Avior
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Reset
+# Accessibility
+# Typography
+# Forms
+# Navigation
+  ## Menus
+  ## Navigation
+# Widgets
+# Content
+  ## Header
+  ## Footer
+  ## Posts and pages
+  ## Comments
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Reset
+--------------------------------------------------------------*/
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+th {
+  text-align: right;
+}
+
+@media screen and (min-width: 62em) {
+  .content-area:not(.full-width) {
+    float: right;
+    padding-left: 4.44444em;
+    padding-right: 0em;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .site-content .widget-area {
+    float: left;
+  }
+}
+
+/*--------------------------------------------------------------
+## Accessibility
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Typography
+--------------------------------------------------------------*/
+caption, th, td {
+  text-align: right;
+}
+
+blockquote {
+  padding: 0.72727em 1.36364em 0.54545em 0;
+  border-width: 0 4px 0 0;
+  font-style: italic;
+}
+
+@media screen and (min-width: 48em) {
+  blockquote {
+    padding: 0.92308em 1.53846em 1.42308em 0;
+  }
+}
+
+ul, .widget .textwidget ul, ol, .widget .textwidget ol {
+  margin: 0 1.25em 1.6em;
+}
+
+li > ul, .widget .textwidget li > ul,
+li > ol, .widget .textwidget
+li > ol {
+  margin-left: 0;
+  margin-right: 0.94444em;
+}
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+.search-form .search-submit {
+  right: 0;
+}
+
+.search-form .search-field {
+  padding-left: 0.27778em;
+  padding-right: 3em;
+}
+
+select {
+  background-position: left 0.27778em top 50%;
+  padding-left: 1.44444em;
+  padding-right: 0.27778em;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+@media screen and (min-width: 62em) {
+  .top-navigation-right li,
+  .main-navigation li {
+    float: right;
+  }
+}
+
+.top-navigation-right .menu-item-has-children .dropdown-toggle.toggled-on:after,
+.main-navigation .menu-item-has-children .dropdown-toggle.toggled-on:after {
+  display: block;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+@media screen and (min-width: 62em) {
+  .footer-navigation .menu > .menu-item-has-children > ul:after, .footer-navigation .menu > .menu-item-has-children > ul:before,
+  .top-navigation-right .menu > .menu-item-has-children > ul:after,
+  .top-navigation-right .menu > .menu-item-has-children > ul:before,
+  .main-navigation .menu > .menu-item-has-children > ul:after,
+  .main-navigation .menu > .menu-item-has-children > ul:before {
+    right: 14px;
+  }
+}
+
+.footer-navigation ul ul li,
+.top-navigation-right ul ul li,
+.main-navigation ul ul li {
+  margin: 0;
+  margin-right: -1px;
+}
+
+@media screen and (min-width: 62em) {
+  .footer-navigation ul ul li:hover > ul,
+  .footer-navigation ul ul li.focus > ul,
+  .top-navigation-right ul ul li:hover > ul,
+  .top-navigation-right ul ul li.focus > ul,
+  .main-navigation ul ul li:hover > ul,
+  .main-navigation ul ul li.focus > ul {
+    left: auto;
+    right: 100%;
+  }
+}
+
+.footer-navigation ul ul a,
+.top-navigation-right ul ul a,
+.main-navigation ul ul a {
+  padding-right: 1.06667em;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 62em) {
+  .footer-navigation ul ul a,
+  .top-navigation-right ul ul a,
+  .main-navigation ul ul a {
+    padding: 0.625em 1em;
+  }
+}
+
+.footer-navigation ul ul ul a,
+.top-navigation-right ul ul ul a,
+.main-navigation ul ul ul a {
+  padding-right: 2.13333em;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 62em) {
+  .footer-navigation ul ul ul a,
+  .top-navigation-right ul ul ul a,
+  .main-navigation ul ul ul a {
+    padding: 0.625em 1em;
+  }
+}
+
+.footer-navigation ul ul ul ul a,
+.top-navigation-right ul ul ul ul a,
+.main-navigation ul ul ul ul a {
+  padding-right: 3.2em;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 62em) {
+  .footer-navigation ul ul ul ul a,
+  .top-navigation-right ul ul ul ul a,
+  .main-navigation ul ul ul ul a {
+    padding: 0.625em 1em;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .footer-navigation ul li > ul,
+  .top-navigation-right ul li > ul,
+  .main-navigation ul li > ul {
+    left: auto;
+    right: -1.28571em;
+  }
+}
+
+.top-navigation-right .menu-item-has-children > a:after,
+.main-navigation .menu-item-has-children > a:after {
+  margin-left: 0;
+  margin-right: 0.6em;
+}
+
+.top-navigation-right .sub-menu .menu-item-has-children > a:after, .main-navigation .sub-menu .menu-item-has-children > a:after {
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(90deg);
+}
+
+.top-navigation-right .menu-item-has-children .menu-item-has-children > a:after, .main-navigation .menu-item-has-children .menu-item-has-children > a:after {
+  right: auto;
+  left: 1em;
+}
+
+.menu-toggle .fa {
+  margin-right: 0;
+  margin-left: 0.36364em;
+}
+
+/*--------------------------------------------------------------
+## Navigation
+--------------------------------------------------------------*/
+.post-navigation .nav-next {
+  text-align: left;
+}
+
+.pagination a .prev {
+  margin-right: 0.90909em;
+  margin-left: 1.09091em;
+  float: right;
+}
+
+.pagination a .prev:before {
+  content: "";
+}
+
+.pagination a .next {
+  margin-left: 0.90909em;
+  margin-right: 1.09091em;
+  float: left;
+}
+
+.pagination a .next:before {
+  content: "";
+}
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.widget.widget_calendar th, .widget.widget_calendar td, .widget.widget_calendar tfoot td {
+  text-align: right;
+}
+
+.widget.widget_calendar #next {
+  text-align: left;
+}
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+@media screen and (min-width: 62em) {
+  .site-branding .top-navigation-right {
+    margin: 0 auto 0 0;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .menu-top-right-container {
+    position: relative;
+  }
+  .menu-top-right-container:before {
+    right: auto;
+    left: -1.21429em;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .site-logo-wrapper {
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .custom-logo-link {
+    margin: 0 0 0 0.9em;
+  }
+}
+
+.search-icon-wrapper {
+  margin-left: 0;
+  margin-right: 2.33333em;
+}
+
+.search-modal .search-form {
+  margin: 0 0 0 2em;
+}
+
+.search-modal .close-search-modal {
+  float: left;
+}
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+@media screen and (min-width: 62em) {
+  .site-footer .wrapper-bottom {
+    text-align: right;
+  }
+  .site-footer .wrapper-bottom .site-info {
+    margin: 0 0 0 auto;
+  }
+}
+
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.entry-meta .byline, .entry-meta .author-avatar,
+.entry-meta .posted-on,
+.entry-meta .comments-link,
+.entry-meta .cat-links a,
+.entry-meta .edit-link, .entry-footer .byline, .entry-footer .author-avatar,
+.entry-footer .posted-on,
+.entry-footer .comments-link,
+.entry-footer .cat-links a,
+.entry-footer .edit-link {
+  margin-right: 0;
+  margin-left: 1.28571em;
+}
+
+.author-info .author-avatar .avatar,
+.entry-author .author-avatar .avatar {
+  float: right;
+  margin: 0.38889em 0 0 1.66667em;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-author .avatar {
+  float: right;
+  margin: 0.38889em 0 1.66667em 1.66667em;
+}
+
+.comment-metadata > a,
+.pingback .edit-link > a {
+  margin-right: 0;
+  margin-left: 1em;
+}
+
+.reply {
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 2.25em;
+  padding-right: 1.875em;
+}
+
+@media screen and (min-width: 48em) {
+  .reply {
+    margin-right: 4em;
+  }
+}
+
+.comment-body + .comment-respond,
+.comment-list .children > li,
+.comment-content {
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 2em;
+  padding-right: 1.66667em;
+}
+
+@media screen and (min-width: 48em) {
+  .comment-body + .comment-respond,
+  .comment-list .children > li,
+  .comment-content {
+    margin-right: 3.55556em;
+  }
+}
+
+.comment-content {
+  padding-bottom: 1.05556em;
+}
+
+.comment-content ul, .comment-content ol {
+  margin: 0 1.25em 1.5em 0;
+}

@@ -1,0 +1,288 @@
+# Translation of Themes - Avior in Russian
+# This file is distributed under the same license as the Themes - Avior package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-11-28 15:13:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Avior\n"
+
+#. Description of the plugin/theme
+msgid "Avior is a clean and dandy WordPress blogging theme, designed for people, who aim for readable, photo-rich and SEO-smart writing. With Avior you'll easily take care of a website customization: change footer and header info like menus and social media icons, change header image, use unlimited colors to reach a perfect color scheme and more. All tweaks are easily performed visually via WordPress Customizer. A distinctive search engine optimized blog will help you stand out of the crowd and create impressive posts that will look just perfect on any modern device."
+msgstr "Avior - это минималистичная и изысканная WordPress тема для блога, созданная для людей, которые стремятся к удобному, красивому и SEO-оптимизированному блоггингу. Avior позволяет легко справиться с кастомизацией сайта: изменяйте информацию типа меню и социальных иконок в футере и хедере, картинку в верхней части сайта, используйте всевозможные цвета для достижения идеальной цветовой схемы и так далее. Все изменения легко применяются в визуальном редакторе WordPress. Характерный, SEO-оптимизированный блог поможет вам выделиться из толпы и создать впечатляющие записи, которые будут выглядеть идеально на любом современном устройстве."
+
+#. Theme Name of the plugin/theme
+msgid "Avior"
+msgstr "Avior"
+
+#: inc/template-tags.php:272
+msgid "Page"
+msgstr "Страница"
+
+#: inc/template-tags.php:257
+msgid "previous"
+msgstr "предыдущая"
+
+#: inc/template-tags.php:255
+msgid "Next post:"
+msgstr "Следующая запись:"
+
+#: inc/template-tags.php:258
+msgid "Previous post:"
+msgstr "Предыдущая запись:"
+
+#: inc/template-tags.php:254
+msgid "next"
+msgstr "следующая"
+
+#: inc/customizer.php:307
+msgid "Default"
+msgstr "По умолчанию"
+
+#: inc/customizer.php:233
+msgid "Button Hover Color"
+msgstr "Цвет кнопки при наведении"
+
+#: inc/customizer.php:221
+msgid "Link Color"
+msgstr "Цвет ссылки"
+
+#: inc/customizer.php:209
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: inc/customizer.php:199
+msgid "Footer background color"
+msgstr "Цвет фона футера"
+
+#: inc/customizer.php:189
+msgid "Header background color"
+msgstr "Цвет фона хедера"
+
+#. Template Name of the plugin/theme
+msgid "Full width"
+msgstr "На всю ширину"
+
+#: template-parts/content-page.php:30 template-parts/content-single.php:36
+#: template-parts/content.php:32
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: template-parts/content-none.php:25
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Кажется, мы не можем найти то, что вы ищете. Возможно, поиск может помочь."
+
+#: template-parts/content-none.php:20
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, но ничто не соответствует вашим условиям поиска. Пожалуйста, попытайтесь снова с другими ключевыми словами."
+
+#: template-parts/content-none.php:18
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать вашу первую запись? <a href=\"%1$s\">Начать</a>."
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: template-parts/biography.php:34
+msgid "All Posts by %s"
+msgstr "Все записи от %s"
+
+#: template-parts/biography.php:17
+msgid "Author:"
+msgstr "Автор:"
+
+#: searchform.php:17
+msgctxt "submit button"
+msgid "Search"
+msgstr "Найти"
+
+#: searchform.php:13
+msgctxt "placeholder"
+msgid "Search"
+msgstr "Поиск"
+
+#: searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr "Искать"
+
+#: functions.php:238
+msgctxt "Source Code Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:228
+msgctxt "Source Serif Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:218
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:126
+msgid "Footer Right"
+msgstr "Справа в футере"
+
+#: functions.php:110 functions.php:119 functions.php:128
+msgid "Appears in the footer section of the site."
+msgstr "Выводится в футере сайта."
+
+#: functions.php:108
+msgid "Footer Left"
+msgstr "Слева в футере"
+
+#: functions.php:101
+msgid "Add widgets here."
+msgstr "Добавьте виджет здесь."
+
+#: functions.php:99
+msgid "Sidebar"
+msgstr "Область с виджетами"
+
+#: functions.php:47
+msgid "Footer"
+msgstr "Футер"
+
+#: functions.php:46
+msgid "Social"
+msgstr "Социальное"
+
+#: functions.php:45
+msgid "Primary"
+msgstr "Главное"
+
+#: footer.php:20
+msgid "Footer Links Menu"
+msgstr "Меню в футере"
+
+#: comments.php:83
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: comments.php:55 comments.php:75
+msgid "Newer Comments"
+msgstr "Новые комментарии"
+
+#: search.php:15
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: inc/template-tags.php:360
+msgid "Related Posts"
+msgstr "Похожие записи"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:315
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Продолжить читать<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: inc/template-tags.php:127
+msgctxt "Used between list items, there is a space."
+msgid " "
+msgstr " "
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:108 inc/template-tags.php:151
+msgid "Edit %1$s"
+msgstr "Редактировать %1$s"
+
+#: inc/template-tags.php:77
+msgid "1 Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "1 комментарий<span class=\"screen-reader-text\"> on %s</span>"
+
+#: inc/template-tags.php:76
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Оставить комментарий<span class=\"screen-reader-text\"> на %s</span>"
+
+#: inc/template-tags.php:73
+msgid "%1$s Comment<span class=\"screen-reader-text\"> on %2$s</span>"
+msgid_plural "%1$s Comments<span class=\"screen-reader-text\"> on %2$s</span>"
+msgstr[0] "%1$s комментарий<span class=\"screen-reader-text\"> на %2$s</span>"
+msgstr[1] "%1$s комментария<span class=\"screen-reader-text\"> на %2$s</span>"
+msgstr[2] "%1$s комментариев<span class=\"screen-reader-text\"> на %2$s</span>"
+
+#: header.php:70
+msgid "Close"
+msgstr "Закрыть"
+
+#: header.php:70
+msgid "Menu"
+msgstr "Меню"
+
+#: header.php:49
+msgid "Top Links Menu"
+msgstr "Верхнее меню"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: comments.php:50 comments.php:70
+msgid "Comment navigation"
+msgstr "Навигация по комментарию"
+
+#: comments.php:53 comments.php:73
+msgid "Older Comments"
+msgstr "Поздние комментарии"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s Thought to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Thoughts to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s мысль на &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s мысли на &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s мыслей на &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought to &ldquo;%s&rdquo;"
+msgstr "Одна мысль на &ldquo;%s&rdquo;"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Похоже, в этом месте ничего не было найдено. Может быть, попробуйте поискать?"
+
+#. translators: %s: Name of current post.
+#: template-parts/content-page.php:26 template-parts/content-single.php:29
+#: template-parts/content.php:28
+msgid "Continue reading %s"
+msgstr "Читать далее %s"
+
+#: template-parts/content-page.php:15 template-parts/content-single.php:15
+#: template-parts/content.php:18
+msgid "Featured"
+msgstr "Избранная"
+
+#: inc/template-tags.php:131
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Метки"
+
+#: inc/template-tags.php:130
+msgid "Tagged: "
+msgstr "Метки:"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "К сожалению, эта страница не найдена."
+
+#: functions.php:117
+msgid "Footer Center"
+msgstr "По центру в футере"
+
+#. Author URI of the plugin/theme
+msgid "https://motopress.com/"
+msgstr "https://motopress.com/"
+
+#. Author of the plugin/theme
+msgid "MotoPress"
+msgstr "MotoPress"

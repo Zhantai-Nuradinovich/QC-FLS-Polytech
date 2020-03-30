@@ -1,0 +1,475 @@
+# Translation of Themes - Baskerville in Russian
+# This file is distributed under the same license as the Themes - Baskerville package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-05-06 15:14:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Baskerville\n"
+
+#. Description of the theme
+msgid "Baskerville is a beautiful, responsive and retina-ready masonry theme for hoarders. It's the perfect way to showcase your posts, videos, images and galleries, and share your favorite quotes and links. Features responsive design, retina-ready assets, full-width header image, Block Editor/Gutenberg support, support for all post formats, custom logo upload, custom widgets (video, Flickr and Dribbble), four page templates (including a contributors template), editor styling, like functionality via the ZillaLikes plugin and translation-ready code. Demo: https://www.andersnoren.se/themes/baskerville/"
+msgstr "Baskerville - красивая, адаптированная для мобильных устройств и retina экранов основная тема. Она отлично покажет ваши фото, видео, изображения и галереи, позволит делиться цитатами и ссылками. Включает адаптивность, retina ресурсы, полноэкранное изображение заголовка, поддержку редактора блоков (Gutenberg), поддержку любых форматов записей, пользовательский логотип, пользовательские виджеты (видео, Flickr, Dribbble), 4 шаблона страниц, стили для редактора, кнопки \"нравится\"  с помощью плагина ZillaLikes. Готова к переводу. Демо можно посмотреть тут - https://www.andersnoren.se/themes/baskerville/"
+
+#. Theme Name of the theme
+msgid "Baskerville"
+msgstr "Baskerville"
+
+#: index.php:15
+msgid "Page %1$s of %2$s"
+msgstr "Страница %1$s из %2$s"
+
+#: functions.php:709
+msgctxt "Short name of the larger font size in the Gutenberg editor."
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:708
+msgctxt "Name of the larger font size in Gutenberg"
+msgid "Larger"
+msgstr "Очень большой"
+
+#: functions.php:703
+msgctxt "Short name of the large font size in the Gutenberg editor."
+msgid "L"
+msgstr "L"
+
+#: functions.php:702
+msgctxt "Name of the large font size in Gutenberg"
+msgid "Large"
+msgstr "Большой"
+
+#: functions.php:697
+msgctxt "Short name of the regular font size in the Gutenberg editor."
+msgid "M"
+msgstr "M"
+
+#: functions.php:696
+msgctxt "Name of the regular font size in Gutenberg"
+msgid "Regular"
+msgstr "Обычный"
+
+#: functions.php:691
+msgctxt "Short name of the small font size in the Gutenberg editor."
+msgid "S"
+msgstr "S"
+
+#: functions.php:690
+msgctxt "Name of the small font size in Gutenberg"
+msgid "Small"
+msgstr "Мелкий"
+
+#: functions.php:680
+msgctxt "Name of the white color in the Gutenberg palette"
+msgid "White"
+msgstr "Белый"
+
+#: functions.php:675
+msgctxt "Name of the light gray color in the Gutenberg palette"
+msgid "Light Gray"
+msgstr "Светло-серый"
+
+#: functions.php:670
+msgctxt "Name of the medium gray color in the Gutenberg palette"
+msgid "Medium Gray"
+msgstr "Средний серый"
+
+#: functions.php:665
+msgctxt "Name of the dark gray color in the Gutenberg palette"
+msgid "Dark Gray"
+msgstr "Темно-серый"
+
+#: functions.php:660
+msgctxt "Name of the black color in the Gutenberg palette"
+msgid "Black"
+msgstr "Черный"
+
+#: functions.php:655
+msgctxt "Name of the cyan color in the Gutenberg palette"
+msgid "Cyan"
+msgstr "Голубой"
+
+#: functions.php:100 functions.php:137 functions.php:737
+msgctxt "Google Fonts: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:48
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: template-contributors.php:71
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s запись"
+msgstr[1] "%s записи"
+msgstr[2] "%s записей"
+
+#: single.php:248
+msgid "Next post: %s"
+msgstr "Следующая запись: %s"
+
+#: single.php:209
+msgid "@%s on Twitter"
+msgstr "@%s в Twitter"
+
+#: functions.php:538
+msgid "Extra profile information"
+msgstr "Дополнительная информация профиля"
+
+#: functions.php:519
+msgid "Twitter-username (without the @)"
+msgstr "Имя пользователя Twitter (без @)"
+
+#: functions.php:463
+msgctxt "[date] at [time of day]"
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: widgets/dribbble-widget.php:11
+msgid "Dribbble Widget"
+msgstr "Dribbble виджет"
+
+#: widgets/flickr-widget.php:9
+msgid "Flickr Widget"
+msgstr "Flickr виджет"
+
+#. Template Name of the theme
+msgid "No sidebar template"
+msgstr "Шаблон без боковой панели"
+
+#. Template Name of the theme
+msgid "Full width template"
+msgstr "Одноколоночный шаблон"
+
+#. Template Name of the theme
+msgid "Contributors template"
+msgstr "Шаблон участников"
+
+#. Template Name of the theme
+msgid "Archive template"
+msgstr "Шаблон архива"
+
+#: widgets/flickr-widget.php:65
+msgid "Flickr ID (use <a target=\"_blank\" href=\"http://www.idgettr.com\">idGettr</a>):"
+msgstr "Flickr ID (используйте <a target=\"_blank\" href=\"http://www.idgettr.com\">idGettr</a>):"
+
+#: widgets/flickr-widget.php:37
+msgid "More on Flickr"
+msgstr "Больше в Flickr"
+
+#: widgets/flickr-widget.php:8
+msgid "Displays your latest Flickr photos."
+msgstr "Показывает ваши последние фото из Flickr."
+
+#: widgets/dribbble-widget.php:92 widgets/flickr-widget.php:71
+msgid "Number of images to display:"
+msgstr "Количество изображений для показа:"
+
+#: widgets/dribbble-widget.php:86
+msgid "Dribbble username"
+msgstr "имя пользователя Dribbble"
+
+#: widgets/dribbble-widget.php:80 widgets/flickr-widget.php:59
+msgid "Title"
+msgstr "Заголовок"
+
+#: widgets/dribbble-widget.php:53
+msgid "Follow %s on Dribbble"
+msgstr "Подписаться на %s в Dribbble"
+
+#: widgets/dribbble-widget.php:10
+msgid "Displays your latest Dribbble photos."
+msgstr "Показывает ваши последние фото из Dribbble."
+
+#: template-contributors.php:99
+msgid "Twitter"
+msgstr "Twitter"
+
+#: template-contributors.php:91
+msgid "E-mail"
+msgstr "E-mail"
+
+#: template-archives.php:123
+msgid "Archives by Day"
+msgstr "Архив за день"
+
+#: template-archives.php:117
+msgid "Archives by Month"
+msgstr "Архив за месяц"
+
+#: template-archives.php:111
+msgid "Archives by Year"
+msgstr "Архив за год"
+
+#: template-archives.php:105
+msgid "Contributors"
+msgstr "Участники разработки"
+
+#: template-archives.php:94
+msgid "View all posts in %s"
+msgstr "Просмотреть все записи в рубрике &laquo;%s&raquo;"
+
+#: template-archives.php:87
+msgid "Archives by Tags"
+msgstr "Архив меток"
+
+#: template-archives.php:81
+msgid "Archives by Categories"
+msgstr "Архивы по рубрикам"
+
+#: template-archives.php:61
+msgid "Last 30 Posts"
+msgstr "Последние 30 записей"
+
+#: single.php:252
+msgid "Edit post"
+msgstr "Редактировать запись"
+
+#: single.php:248
+msgid "Next post"
+msgstr "Следующая запись"
+
+#: single.php:241
+msgid "Previous post"
+msgstr "Предыдущая запись"
+
+#: single.php:241
+msgid "Previous post: %s"
+msgstr "Предыдущая запись: %s"
+
+#: single.php:191
+msgid "Author website"
+msgstr "Сайт автора"
+
+#: single.php:183
+msgid "Author archive"
+msgstr "Архив автора"
+
+#: searchform.php:3
+msgid "Search"
+msgstr "Поиск"
+
+#: search.php:55
+msgid "No results. Try again, would you kindly?"
+msgstr "Нет результатов. Не хотите попробовать снова?"
+
+#: search.php:7
+msgid "Search results"
+msgstr "Результаты поиска"
+
+#: image.php:60
+msgid "We couldn't find any posts that matched your query. Please try again."
+msgstr "Мы не смогли найти записей по вашему запросу. Пожалуйста, попробуйте еще раз."
+
+#: image.php:35
+msgid "About the attachment"
+msgstr "О прикрепленном файле"
+
+#: functions.php:597 functions.php:611
+msgid "Logo"
+msgstr "Логотип"
+
+#: functions.php:592
+msgid "Allows you to customize some settings for Baskerville."
+msgstr "Позволяет настроить возможности Baskerville."
+
+#: functions.php:589
+msgid "Baskerville Options"
+msgstr "Настройки Baskerville"
+
+#: functions.php:547
+msgid "Check if you want to display your email address in single posts and the contributors page template."
+msgstr "Отметьте если вы хотите показывать ваш адрес email в записях и шаблоне страницы участников."
+
+#: functions.php:543
+msgid "Show email"
+msgstr "Показать Email"
+
+#: functions.php:481
+msgid "Awaiting moderation"
+msgstr "Ожидает одобрения"
+
+#: functions.php:469 functions.php:493
+msgid "Reply"
+msgstr "Ответить"
+
+#: functions.php:467 functions.php:491
+msgid "Edit"
+msgstr "Изменить"
+
+#: functions.php:441
+msgid "(Edit)"
+msgstr "(Изменить)"
+
+#: functions.php:441
+msgid "Pingback:"
+msgstr "Уведомление:"
+
+#: functions.php:307
+msgid "Continue Reading"
+msgstr "Читать далее"
+
+#: functions.php:192
+msgid "Widgets in this area will be shown in the sidebar."
+msgstr "Виджеты этой области будут показаны на боковой панели."
+
+#: functions.php:190
+msgid "Sidebar"
+msgstr "Боковая колонка"
+
+#: functions.php:182
+msgid "Widgets in this area will be shown in the right column in the footer."
+msgstr "Виджеты этой области будут показаны в правом столбце подвала."
+
+#: functions.php:180
+msgid "Footer C"
+msgstr "Подвал В"
+
+#: functions.php:172
+msgid "Widgets in this area will be shown in the middle column in the footer."
+msgstr "Виджеты этой области будут показаны в среднем столбце подвала."
+
+#: functions.php:170
+msgid "Footer B"
+msgstr "Подвал Б"
+
+#: functions.php:162
+msgid "Widgets in this area will be shown in the left column in the footer."
+msgstr "Виджеты этой области будут показаны в левом столбце подвала."
+
+#: functions.php:160
+msgid "Footer A"
+msgstr "Подвал А"
+
+#: footer.php:69
+msgid "Up"
+msgstr "Вверх"
+
+#: footer.php:69
+msgid "To the top"
+msgstr "Наверх"
+
+#: footer.php:69
+msgid "Theme by <a href=\"%s\">Anders Noren</a>"
+msgstr "Тема от <a href=\"%s\">Anders Noren</a>"
+
+#: footer.php:63
+msgid "Powered by <a href=\"%s\">WordPress</a>"
+msgstr "При поддержке <a href=\"%s\">WordPress</a>"
+
+#: sidebar.php:53
+msgid "These widgets are displayed because you haven't added any widgets of your own yet. You can do so at Appearance > Widgets in the WordPress settings."
+msgstr "Эти виджеты показаны потому, что вы сами не добавили никаких. Вы можете добавить их в Консоль > Внешний вид > Виджеты."
+
+#: sidebar.php:49
+msgid "Text widget"
+msgstr "Текстовый виджет"
+
+#: sidebar.php:27
+msgid "Latest posts"
+msgstr "Последние записи"
+
+#: searchform.php:2
+msgid "Search form"
+msgstr "Форма поиска"
+
+#: content-gallery.php:9 content-aside.php:7 content-video.php:9
+#: content-image.php:1 content-image.php:7 content-link.php:9
+#: content-audio.php:11 content-quote.php:9 content.php:9
+msgid "Sticky post"
+msgstr "Прикрепленная запись"
+
+#: template-contributors.php:95
+msgid "Website"
+msgstr "Сайт"
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#: comments.php:65
+msgid "Newer Comments"
+msgstr "Следующие комментарии"
+
+#: comments.php:63
+msgid "Older Comments"
+msgstr "Предыдущие комментарии"
+
+#: comments.php:45
+msgid "Pingback"
+msgid_plural "Pingbacks"
+msgstr[0] "Уведомление"
+msgstr[1] "Уведомления"
+msgstr[2] "Уведомлений"
+
+#: comments.php:23
+msgid "Add yours"
+msgstr "Добавить ваш"
+
+#: comments.php:17
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "комментарий"
+msgstr[1] "комментария"
+msgstr[2] "комментариев"
+
+#: archive.php:71 index.php:55 search.php:41
+msgid "Newer posts"
+msgstr "Следующие записи"
+
+#: archive.php:69 index.php:53 search.php:39
+msgid "Older posts"
+msgstr "Предыдущие записи"
+
+#: archive.php:27
+msgid "Archive"
+msgstr "Архив"
+
+#: archive.php:24
+msgid "Author"
+msgstr "Автор"
+
+#: archive.php:20
+msgid "Tag"
+msgstr "Метка"
+
+#: archive.php:17
+msgid "Category"
+msgstr "Рубрика"
+
+#: archive.php:14
+msgid "Year"
+msgstr "год"
+
+#: archive.php:11
+msgid "Month"
+msgstr "месяц"
+
+#: archive.php:8
+msgid "Date"
+msgstr "Дата"
+
+#: 404.php:19
+msgid "It seems like you have tried to open a page that doesn't exist. It could have been deleted, moved, or it never existed at all. You are welcome to search for what you are looking for with the form below."
+msgstr "Выглядит, как будто вы пытаетесь открыть несуществующую страницу. Она удалена, перемещена, или никогда не существовала. Пожалуйста, воспользуйтесь поиском по сайту!"
+
+#: 404.php:13
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#. Author URI of the theme
+msgid "https://www.andersnoren.se"
+msgstr "https://www.andersnoren.se"
+
+#. Author of the theme
+msgid "Anders Norén"
+msgstr "Anders Norén"
+
+#. Theme URI of the theme
+msgid "https://www.andersnoren.se/teman/baskerville-wordpress-theme/"
+msgstr "https://www.andersnoren.se/teman/baskerville-wordpress-theme/"
